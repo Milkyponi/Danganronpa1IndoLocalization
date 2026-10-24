@@ -1,0 +1,80 @@
+================================================================================
+DANGANRONPA: TRIGGER HAPPY HAVOC — MOD LOKALISASI BAHASA INDONESIA v1.0.0
+Karya: Divisi Game Modding & Lokalisasi — Milky Brain
+Status: 100% PARIPURNA (Cerita Utama, FTE, School Mode, & Seluruh Sidang Kelas)
+================================================================================
+
+[TENTANG MOD INI]
+Mod ini menerjemahkan naskah game Danganronpa: Trigger Happy Havoc (Steam PC) ke
+Bahasa Indonesia yang hidup, luwes, alami, dramatis, dan berkarakter (anti-kaku/Google Translate).
+
+Cakupan 100% Menyeluruh (52.691 Baris Teks):
+1. Seluruh Alur Cerita Utama: Prologue hingga Chapter 6 & Finale Kelulusan (True Ending).
+2. Seluruh Sidang Kelas (Class Trial 1 s/d 6): Non-Stop Debate, Hangman's Gambit,
+   dan seluruh 31 file debat cepat Machinegun Talk Battle (MTB).
+3. Seluruh Free Time Events (FTE): Percakapan mendalam bonding Makoto dengan 15 siswa
+   dan reaksi pemberian hadiah/presents.
+4. Seluruh School Mode: Mode santai *what-if* tanpa pembunuhan (*Trigger Happy Heart Throbbing*).
+5. Seluruh Naskah Extra / Novel: Prologue cerita novel Danganronpa/IF.
+6. Aset Sistem Lengkap: Deskripsi Bukti Kasus (Kotodama / Truth Bullets), Deskripsi Item Hadiah,
+   Laporan Rapor Siswa, 16 Peraturan Sekolah Monokuma, dan Panduan Tutorial Kontrol.
+
+Kebijakan Bahasa Standar:
+- UI, HUD, menu utama, nama karakter, dan nama skill tetap original English agar panduan
+  build internasional dan navigasi menu tetap nyaman.
+- Seluruh dialog cerita dan deskripsi bukti/item menggunakan Bahasa Indonesia berkarakter.
+- Kata terbata-bata/gagap tokoh (Toko Fukawa, Makoto, Chihiro) disinkronkan secara fonetik
+  ke Bahasa Indonesia ("Wh-What" -> "A-Apa", "S-Sorry" -> "M-Maaf", "Y-You" -> "K-Kau").
+
+================================================================================
+[PILIHAN CARA PEMASANGAN]
+================================================================================
+
+Tersedia dua metode pemasangan yang sangat mudah:
+
+--------------------------------------------------------------------------------
+METODE 1: CARA TIMPA / DROP-IN (PALING MUDAH & DIREKOMENDASIKAN UNTUK SEMUA ORANG)
+--------------------------------------------------------------------------------
+*Metode ini tidak membutuhkan instalasi Python atau program tambahan apapun.*
+
+1. Buka folder instalasi game Danganronpa Anda di Steam:
+   - Cara cepat: Buka Steam -> Klik kanan game Danganronpa -> Manage -> Browse local files.
+   - Lokasi default Windows:
+     C:\Program Files (x86)\Steam\steamapps\common\Danganronpa Trigger Happy Havoc\
+   - Lokasi default Linux:
+     ~/.local/share/Steam/steamapps/common/Danganronpa Trigger Happy Havoc/
+2. Buat cadangan (backup) file asli:
+   Cari file "dr1_data_us.wad", salin dan ubah namanya menjadi "dr1_data_us.wad.orig.bak".
+3. Buka folder "[TIMPA_KE_FOLDER_GAME]" dari paket zip mod ini.
+4. Salin file "dr1_data_us.wad" yang ada di dalamnya, lalu tempel (PASTE & TIMPA)
+   ke dalam folder game Danganronpa Anda.
+5. Selesai! Jalankan game lewat Steam, mod langsung aktif seketika tanpa setting menu.
+
+--------------------------------------------------------------------------------
+METODE 2: PEMASANG OTOMATIS (VIA SCRIPT INSTALLER)
+--------------------------------------------------------------------------------
+*Gunakan metode ini jika Anda mengunduh paket Patcher Edition (~9 MB).*
+
+Untuk Pengguna WINDOWS:
+1. Ekstrak seluruh isi file zip mod ini ke dalam folder game Danganronpa Anda.
+2. Klik dua kali file "INSTALL.bat".
+3. Skrip akan otomatis mencadangkan file asli dan menyuntikkan terjemahan dalam 10 detik.
+4. Tekan sembarang tombol untuk selesai, lalu mainkan game lewat Steam!
+
+Untuk Pengguna LINUX / STEAM DECK:
+1. Ekstrak isi file zip ke dalam folder game Danganronpa Anda.
+2. Buka terminal di folder tersebut, lalu jalankan:
+   chmod +x INSTALL.sh
+   ./INSTALL.sh
+3. Selesai! Jalankan game langsung melalui Proton/Steam.
+
+================================================================================
+[CARA MENGEMBALIKAN KE BAHASA ASLI (UNINSTALL / ROLLBACK)]
+================================================================================
+Cukup hapus file "dr1_data_us.wad" hasil mod, lalu kembalikan nama file backup
+"dr1_data_us.wad.orig.bak" menjadi "dr1_data_us.wad".
+Atau buka Steam -> Klik kanan Danganronpa -> Properties -> Installed Files -> Verify integrity of game files.
+
+Selamat menikmati misteri Hope's Peak Academy dalam Bahasa Indonesia!
+Divisi Game Modding & Lokalisasi — Milky Brain
+================================================================================

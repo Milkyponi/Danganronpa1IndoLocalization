@@ -37,7 +37,19 @@ echo "[2/2] Menyuntikkan lokalisasi Bahasa Indonesia ke dr1_data_us.wad..."
 python3 "$SCRIPT_DIR/wad_tool.py" "$BAK_FILE" "$SCRIPT_DIR/dr1_patch_workspace" "$WAD_FILE"
 
 echo ""
+# Gamepad configuration prompt for Linux / Steam Deck
+read -p "Apakah Anda bermain menggunakan GAMEPAD / CONTROLLER? (y/n): " use_gp
+if [[ "$use_gp" =~ ^[Yy]$ ]]; then
+    # Search common compatdata / savedata paths
+    SAVE_DIR="$GAME_DIR/../../compatdata/413410/pfx/drive_c/users/steamuser/Documents/My Games/Danganronpa"
+    if [ -d "$SAVE_DIR" ]; then
+        cp "$SCRIPT_DIR/PILIHAN_KONTROL_GAMEPAD/controls.dat" "$SAVE_DIR/controls.dat"
+        echo "[OK] Ikon tombol Gamepad (A/B/X/Y) berhasil diaktifkan di compatdata!"
+    fi
+fi
+
+echo ""
 echo "======================================================================="
 echo "  SUKSES! Danganronpa: Trigger Happy Havoc kini sudah berbahasa Indonesia!"
-echo "  Silakan jalankan game melalui Steam."
+echo "  Silakan jalankan game melalui Steam. Selamat bermain!"
 echo "======================================================================="

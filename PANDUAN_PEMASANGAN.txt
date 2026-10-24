@@ -25,6 +25,8 @@ Kebijakan Bahasa Standar:
 - Seluruh dialog cerita dan deskripsi bukti/item menggunakan Bahasa Indonesia berkarakter.
 - Kata terbata-bata/gagap tokoh (Toko Fukawa, Makoto, Chihiro) disinkronkan secara fonetik
   ke Bahasa Indonesia ("Wh-What" -> "A-Apa", "S-Sorry" -> "M-Maaf", "Y-You" -> "K-Kau").
+- Line-Wrapping Pintar: Teks dialog dipenggal rapi per kata (word-wrap) tanpa ada kata
+  yang terbelah atau menembus bingkai kotak dialog.
 
 ================================================================================
 [PILIHAN CARA PEMASANGAN]
@@ -59,7 +61,9 @@ Untuk Pengguna WINDOWS:
 1. Ekstrak seluruh isi file zip mod ini ke dalam folder game Danganronpa Anda.
 2. Klik dua kali file "INSTALL.bat".
 3. Skrip akan otomatis mencadangkan file asli dan menyuntikkan terjemahan dalam 10 detik.
-4. Tekan sembarang tombol untuk selesai, lalu mainkan game lewat Steam!
+4. Jika Anda bermain menggunakan stik/controller, tekan "Y" saat ditanya untuk mengaktifkan
+   ikon tombol Gamepad (A/B/X/Y).
+5. Selesai, lalu mainkan game lewat Steam!
 
 Untuk Pengguna LINUX / STEAM DECK:
 1. Ekstrak isi file zip ke dalam folder game Danganronpa Anda.
@@ -67,6 +71,16 @@ Untuk Pengguna LINUX / STEAM DECK:
    chmod +x INSTALL.sh
    ./INSTALL.sh
 3. Selesai! Jalankan game langsung melalui Proton/Steam.
+
+--------------------------------------------------------------------------------
+[TIPS KHUSUS: CARA MENGUBAH IKON PROMPT MENJADI GAMEPAD / STIK]
+--------------------------------------------------------------------------------
+Jika di layar game Anda muncul ikon mouse (klik kiri) padahal Anda memakai stik:
+Game Danganronpa membaca file pengaturan kontrol di folder dokumen komputer:
+- Lokasi Windows: Documents\My Games\Danganronpa\controls.dat
+- Cukup salin file "controls.dat" dari folder "PILIHAN_KONTROL_GAMEPAD" di paket mod ini,
+  lalu paste/timpa ke folder "Documents\My Games\Danganronpa\" Anda.
+Semua ikon kontrol in-game seketika akan berubah menjadi tombol stik (A/B/X/Y)!
 
 ================================================================================
 [CARA MENGEMBALIKAN KE BAHASA ASLI (UNINSTALL / ROLLBACK)]

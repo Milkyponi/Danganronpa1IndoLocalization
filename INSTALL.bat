@@ -56,8 +56,17 @@ if %ERRORLEVEL% equ 0 (
     echo.
     echo =======================================================================
     echo   SUKSES! Danganronpa: Trigger Happy Havoc kini sudah berbahasa Indonesia!
-    echo   Silakan jalankan game melalui Steam.
     echo =======================================================================
+    echo.
+    set /p "USE_GP=Apakah Anda bermain menggunakan GAMEPAD / CONTROLLER? [Y/N]: "
+    if /i "%USE_GP%"=="Y" (
+        set "DOCS_DR=%USERPROFILE%\Documents\My Games\Danganronpa"
+        if not exist "%DOCS_DR%" mkdir "%DOCS_DR%" 2>nul
+        copy /y "%SCRIPT_DIR%PILIHAN_KONTROL_GAMEPAD\controls.dat" "%DOCS_DR%\controls.dat" >nul
+        echo [OK] Ikon tombol Gamepad (A/B/X/Y) berhasil diaktifkan!
+    )
+    echo.
+    echo Silakan jalankan game melalui Steam. Selamat bermain!
 ) else (
     echo.
     echo [ERROR] Terjadi kesalahan saat proses patching.

@@ -14,6 +14,7 @@
   <img src="https://img.shields.io/badge/Platform-PC%20(Steam)-blue?style=for-the-badge" alt="Platform">
   <img src="https://img.shields.io/badge/Engine-Spike%20Chunsoft%20%2F%20SilverWare-orange?style=for-the-badge" alt="Engine">
   <img src="https://img.shields.io/badge/Cakupan-100%25%20Paripurna-brightgreen?style=for-the-badge" alt="Coverage">
+  <a href="https://trakteer.id/milkyponi"><img src="https://img.shields.io/badge/Donate-Trakteer%20Milky%20Poni-be1e2d?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Donate via Trakteer"></a>
 </p>
 
 ---
@@ -131,6 +132,20 @@ Jika ingin mengembalikan game ke bahasa Inggris original:
 * **Lead Modder, Reverse-Engineering & Localization**: Ochi (Head of Game Modding & Localization Division)
 * **Engineering Tools**: `wad_tool.py` streaming patcher by Milky Brain
 * **Original Game**: © Spike Chunsoft / Abstraction Games
+
+---
+
+## ☕ Dukung Proyek Ini (Donate)
+
+Jika mod lokalisasi Bahasa Indonesia ini bermanfaat bagi pengalaman bermain Anda, Anda dapat memberikan dukungan pengembangan kepada **Milky Poni** melalui Trakteer:
+
+<p align="center">
+  <a href="https://trakteer.id/milkyponi">
+    <img src="https://img.shields.io/badge/%E2%98%95%20Donate-Dukung%20di%20Trakteer%20(Milky%20Poni)-be1e2d?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Donate via Trakteer" height="40">
+  </a>
+</p>
+
+- **Link Trakteer**: [https://trakteer.id/milkyponi](https://trakteer.id/milkyponi)
 
 ---
 <p align="center"><i>Dibuat dengan dedikasi penuh untuk komunitas gaming visual novel Indonesia oleh Milky Brain.</i></p>
